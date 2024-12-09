@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: cadetblue;
+    font-family: sans-serif;
+  }
+  
+  
+  #expense-form input {
+    margin-bottom: 10px;
+  }
+  .expense-tracker {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+form input {
+    flex:1;
+    padding: 10px;
+    font-size: 16px;
+}
+form button {
+    padding: 10px 20px;
+    background: #584c99;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+form button:hover {
+    background: #6462f1;
+}
+ul {
+    list-style: none;
+    padding:0;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+ul li button {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+ul li button:hover {
+    background: #a71d2a;
+}
+.total-expense {
+    text-align: right;
+    font-size: 18px;
+}
